@@ -1,3 +1,10 @@
+console.log(`================================`)
+console.log({
+  GATSBY_BUILD: process.env.GATSBY_BUILDS,
+  GATSBY_PREVIEW: process.env.GATSBY_PREVIEW
+})
+console.log(`================================`)
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
